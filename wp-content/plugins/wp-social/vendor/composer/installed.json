@@ -1,0 +1,57 @@
+[
+    {
+        "name": "opauth/opauth",
+        "version": "0.4.5",
+        "version_normalized": "0.4.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/opauth.git",
+            "reference": "3f979012d0bdf2d447bb02b97f7f7d9f482c77e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/opauth/zipball/3f979012d0bdf2d447bb02b97f7f7d9f482c77e8",
+            "reference": "3f979012d0bdf2d447bb02b97f7f7d9f482c77e8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "suggest": {
+            "opauth/facebook": "Allows Facebook authentication",
+            "opauth/google": "Allows Google authentication",
+            "opauth/twitter": "Allows Twitter authentication"
+        },
+        "time": "2018-02-25T03:18:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/Opauth/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "Multi-provider authentication framework for PHP",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "OpenId",
+            "auth",
+            "facebook",
+            "google",
+            "oauth",
+            "omniauth",
+            "twitter"
+        ]
+    }
+]

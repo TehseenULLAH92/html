@@ -1,0 +1,8 @@
+2018-07-31T06:39:31+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_get_option() in /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules/subscription/includes/classes/class-registration-sub.php:218
+Stack trace:
+#0 /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules/subscription/product-subscription.php(210): require_once()
+#1 /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules/subscription/product-subscription.php(78): Dokan_Product_Subscription->file_includes()
+#2 /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules/subscription/product-subscription.php(135): Dokan_Product_Subscription->__construct()
+#3 /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules/subscription/product-subscription.php(1179): Dokan_Product_Subscription::init()
+#4 /home/wpxpeedstudio/public_html/marketo/wp-content/plugins/dokan-pro/includes/modules.php(219): require_once('/home/wpxpeedst...
+
